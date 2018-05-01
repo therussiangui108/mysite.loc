@@ -71,5 +71,8 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    
+    .header-top { display: none; }
+    .header-top-mobile { display: block; }
+    .grass { display: none; }
+    .grass_mobile { display: inline-block; }
 }

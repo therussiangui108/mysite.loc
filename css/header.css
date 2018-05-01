@@ -38,6 +38,7 @@ body{
     background-color: rgba(255,255,255,0.15);
     border-radius: 67.5px;
 }
+.header-top-mobile { display: none; }
 
 .logo { 
     margin: 23px 0 50px;
@@ -84,4 +85,69 @@ body{
     bottom: 6px;
     left: 50%;
     margin-left: -35px;
+}
+.grass_mobile { display: none; }
+
+
+/* Mobile menu */
+.header-top-mobile {
+    text-align: center;
+}
+
+.main_menu {
+    position: relative;
+    display: inline-block;
+}
+
+.div_main_slider {
+    background-color: rgba(255,255,255,0.70);
+    padding: 11px 0;
+    border-radius: 27px;
+    width: 446px;
+    text-align: center;
+    font: 23px 'Century';
+}
+
+.main_slider_click{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 0;
+}
+
+.main_slider_button{
+    position: relative;
+    width: 56px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.ul_main_slider{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ul_main_slider li:first-child{
+    border-top: 4px solid rgba(0,0,0,0.50);
+}
+
+.ul_main_slider li{
+    line-height: 100px;
+    border-bottom: 4px solid rgba(0,0,0,0.50);
+}
+
+.ul_main_slider li:last-child{
+    border-bottom: none;
+}
+
+.ul_main_slider li a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 1px;
 }
