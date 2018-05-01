@@ -1,0 +1,419 @@
+
+.clearfix{
+    clear:both;
+}
+
+/* Content */
+
+.catalog-page {
+    padding: 27px 0;
+    width: 1769px;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 9px;
+    color: black;
+    margin:  61px auto;
+}
+
+
+/* Slider */
+.slider {
+    position: relative;
+}
+
+.slider_btn {
+    padding: 0;
+    border: none;
+    outline: none;
+    background: url(../content/slider-arrow.png);
+
+    position: absolute;
+    top: 337px;
+
+    width: 47px;
+    height: 47px;
+    cursor: pointer;
+}
+.slider_btn.left { left: 23px; }
+.slider_btn.right { right: 23px; transform: scaleX(-1); }
+
+.slider_window {
+    position: relative;
+    margin: 0 auto;
+    width: 1608px;
+    height: 721px;
+    overflow: hidden;
+}
+
+.slider_slides {
+    position: absolute;
+    left: 0;
+    width: 50000px;
+}
+
+.col { float: left; margin-right: 84px; }
+
+.block {
+    position: relative;
+    margin-bottom: 39px;
+    width: 464px;
+    height: 325px;
+    background-color: rgba(255,255,255,0.50);
+    border-radius: 9px;
+    border: 8px solid rgba(0,0,0,0.75);
+}
+
+/* End slider */
+
+/* Search area */
+.centertext{
+    text-align: center;
+    padding: 14px 0px;
+}
+
+
+.search_area{
+    width: 1608px;
+    margin: 0 auto 27px;
+    font: bold 33px 'Arno Pro';
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini_block{
+    padding: 19 0 0 0;
+    position: relative;
+    width: 284px;
+    border-radius: 9px;
+    background-color: rgba(255,255,255,0.50);
+}
+.mini_block_menu { position: relative; line-height: 84px; padding: 0; }
+
+.minicenter_block{
+    width: 284px;
+    border-radius: 9px;
+    background-color: rgba(255,255,255,0.50);
+    padding: 15 0 0 0;
+}
+
+.whiteblock1{
+    width: 252px;
+    border-radius: 9px;
+    background: white;
+    margin: -3px 0px 0px 16px;
+    position: absolute;
+    top: 18;
+    bottom: 15;
+    z-index: -1;
+
+}
+
+.whiteblock2{
+    background: white;
+    width: 211px;
+    position: absolute;
+    top: 18;
+    bottom: 15;
+    margin: -3px 0px 0px 16px;
+    border-radius: 9px;
+    padding-top: 6px;
+    padding-left: 13px;
+
+}
+
+.arrowdown{
+    border: none;
+    outline: none;
+    background: url(../content/arrowdown.png);
+    position: absolute;
+    top: 28px;
+    left: 221px;
+    width: 32px;
+    height: 33px;
+    cursor: pointer;
+}
+
+.search{
+    border: none;
+    outline: none;
+    background: url(../content/search.png);
+    position: absolute;
+    top: 29px;
+    left: 240px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.txt1{
+    width: 252px;
+    border-radius: 9px;
+    font: bold 33px 'Arno Pro';
+    padding-top: 11px;
+    text-align: center;
+}
+
+.txt2{
+    width: 211px;
+    border-radius: 9px;
+    margin: -3px 0px 0px 15px;
+    font: bold 33px 'Arno Pro';
+    padding-top: 11px;
+    padding-left: 7px;
+}
+
+.slider_slides_images{
+    position: absolute;
+    top: 45px;
+    left: 38px;
+}
+
+.txtMainBlock{
+    width: 195px;
+    padding: 0px;
+    margin-left: 2px;
+    word-wrap: break-word;
+    position: absolute;
+    top: 44px;
+    left: 232;
+    color: #0048ff;
+}
+
+.commonText{
+    margin: 0;
+    padding: 0;
+    font: normal 33px 'Arno Pro';
+}
+
+.hoverText:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.hoverText:active{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.otherText{
+    color: black;
+}
+
+.otherButtons{
+    position: absolute;
+    width: 162px;
+    top: 221px;
+    left: 291px;
+}
+
+.MainRangeButton{
+    width: auto;
+    height: 42px;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+
+.rangeButton{
+    background: url(../content/%D0%92%20%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D1%831.png);
+    width: auto;
+    height: 42px;
+    border-radius: 9px;
+    position: relative;
+    background-size: cover;
+}
+
+.rangeButton:active{
+    background: url(../content/%D0%92%20%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D1%832.png);
+    width: auto;
+    height: 42px;
+    border-radius: 9px;
+    position: relative;
+    background-size: cover;
+}
+
+.txtInput{
+    width: 84px;
+    height: 22px;
+    border-radius: 9px;
+    position: absolute;
+    top: 9;
+    left: 40;
+    outline: none;
+    text-align: center;
+}
+
+.imgRangeArrow{
+    background: none;
+    outline: none;
+    border: 0;
+    background-image: url(../content/rangeArrow.png);
+    background-size: contain;
+    width: 19px;
+    position: absolute;
+    top: 10;
+    height: 19px;
+    left: 131;
+    cursor: pointer;
+}
+
+.imgRangeArrow.left{
+    background: none;
+    outline: none;
+    border: 0;
+    background-image: url(../content/rangeArrow.png);
+    background-size: contain;
+    width: 19px;
+    position: absolute;
+    top: 10;
+    height: 19px;
+    left: 14;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+
+.mini_block.left.slide{
+    width: 284px;
+    border-radius: 9px;
+    background-color: rgba(255,255,255,0.50);
+    transition: width 2s, height 2s;
+    user-select: none;
+}
+
+/*
+.mini_block.left.slide:hover{
+    margin: 11px auto 0px;
+    width: 284px;
+    height: auto;
+    border-radius: 9px;
+    background-color: rgba(255,255,255,0.50);
+    margin-left: 0px;
+}
+*/
+
+/*
+.mini_block.left.slide:hover .arrowdown{
+    transform: rotate(180deg);
+}
+*/
+
+/*
+.mini_block.left.slide:hover .category{
+    display: block;
+}
+*/
+
+.category{
+    background: rgba(255,255,255,0.5);
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    display: none;
+    line-height: 92px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    user-select: none;
+}
+
+.category li a {
+    color: black;
+    text-decoration: none;
+    font: bold 33px 'Arno Pro';
+}
+
+.category li{
+    border-bottom: 1px solid black;
+/*
+    margin-top: 11px;
+    padding-bottom: 8px;
+*/
+    padding-top: 6px;
+    margin: 0;
+}
+.category li:last-child { border-bottom: none; }
+
+.category li:first-child{
+    border-top: 1px solid black;
+    padding-top: 6px;
+    margin: 0;
+}
+
+.hiddenWindow{
+    display: none;
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: rgba(0,0,0,0.75);
+    z-index: 100000;
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+
+.hiddenBlock{
+    position: fixed;
+    width: 1081px;
+    height: 695px;
+    top: 14%;
+    left: 24.5%;
+    
+    border-radius: 20px;
+    background: white;
+    word-wrap: break-word;
+}
+
+.imgModal{
+    background-image: url(../content/urbech_01Modal.png);
+    background-size: cover;
+    width: 290px;
+    height: 425px;
+    margin-left: 57px;
+    margin-top: 130px;
+}
+
+.textModalBlock{
+    padding-top: 30px;
+    position: absolute;
+    width: 677px;
+    height: 578px;
+    top: 0;
+    left: 391px;
+}
+
+.boldModalText{
+    font-weight: bold;
+}
+
+.commonText.closeButtonText{
+    text-decoration: underline;
+    position: relative;
+    bottom: 24px;
+    left: 563px;
+    cursor: pointer;
+}
+
+.commonText.closeButtonText:active{
+    text-decoration: none;
+    position: relative;
+    bottom: 24px;
+    left: 563px;
+}
+
+.raznoe{
+    padding: 0;
+    margin-top: 6px;
+}
+
+/*
+.arrowdown:active{
+    width: 32px;
+    height: 33px;
+    background: url(../content/arrowup.png);
+}
+*/
+

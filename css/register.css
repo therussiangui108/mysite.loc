@@ -1,0 +1,98 @@
+.clearfix{
+    clear:both;
+}
+
+/* Content */
+
+.catalog-page {
+    padding: 27px 0;
+    width: 1769px;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 9px;
+    color: black;
+    margin:  61px auto;
+}
+
+.registerBlock{
+    margin: 81px auto;
+    border-radius: 9px;
+    background-color: rgba(255,255,255,0.50);
+    width: 842px;
+}
+
+.headerText{
+    text-align: center;
+    font: normal 36px "Century";
+    padding: 0;
+    margin: 0 0 5px 0;
+    line-height: 57px;
+}
+
+.plankRegister{
+    width: 781px;
+    height: 10px;
+    margin: 0px auto;
+    background-image: url(../content/blackPlank.png);
+    background-size: contain;
+}
+
+input:last-child{
+    margin-bottom: -15px;
+}
+
+input{
+    font: 36px 'Courier New';
+    padding-left: 15px;
+    border-radius: 7px;
+    width: 301px;
+    height: 50px;
+    border: none;
+    outline: none;
+    display: block;
+    box-shadow: inset 0px 0px 20px black;
+    margin: 15px auto;
+}
+
+
+
+.inputsBlock{
+    margin: 29px 0 0px 0;
+    text-align: center;
+}
+
+.okeyButton{
+    width: 250px;
+    height: 47px;
+    background-image: url(../content/okeyButton.png);
+    background-size: cover;
+    border-radius: 9px;
+    font: 36px 'Century';
+    border: none;
+    outline: none;
+    margin: 29px auto;
+}
+
+.okeyButton:active{
+    transform: rotate(180deg);
+}
+
+.okeyButton:active .okeyText{
+    margin: 1px 0 0 0;
+    transform: rotate(180deg);
+}
+
+.loginDiv{
+    font: 33px 'Arno Pro';
+    width: auto;
+    float: right;
+    margin: -67px 30px 0 0;
+    
+}
+
+.loginLink{
+    color: black;
+}
+
+.loginLink:active{
+    text-decoration: none;
+}

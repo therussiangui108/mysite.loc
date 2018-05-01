@@ -1,0 +1,74 @@
+/* Content */
+.planklevel2{ 
+    margin-top: 30px 0;
+    width: 616px;
+    height: 6px;
+    background-color: green;
+    margin: 0px auto;
+}
+
+.main-page { text-align: center; }
+
+
+.slogan {
+    position: relative;
+    display: inline-block;
+    padding: 0 44px;
+    margin-top: 30px;
+}
+
+.slogan_title {
+    margin: 4px 0 0;
+    font: bold 60px 'Courier New';
+}
+
+.slogan_best {
+    font: 47px 'Monotype Corsiva', Times, Serif;
+    margin: 9px 0 0;
+}
+
+.slogan_line {
+    margin: 0 32px;
+    height: 6px;
+    background-color: #ffffff;
+}
+
+.slogan_img {
+    position: absolute;
+    top: 8px;
+}
+.slogan_img.left { left: 0; }
+.slogan_img.right { right: 0; }
+
+.container{
+    margin: 0 auto;
+    max-width: 1643px;
+    font: 35px 'Arno Pro';
+    padding: 0 8.85%;
+}
+
+.blocks{
+    width: 30.9192%;
+    background-color: rgba(255,255,255,0.15);
+    text-align: left;
+    padding:  13px 13px  13px  13px;
+    border-radius: 5px;
+}
+
+.blocks.left{
+    float: left;
+}
+
+.blocks.right{
+    float: right;
+}
+
+.imgorganic{
+    margin-top: 3px;
+    width: 24.45%;
+}
+
+.icons3{
+    width: 51.541%;
+    margin-left: -20px;
+}
