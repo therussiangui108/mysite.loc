@@ -86,12 +86,39 @@ body{
     left: 50%;
     margin-left: -35px;
 }
-.grass_mobile { display: none; }
+
 
 
 /* Mobile menu */
+
+.imgTitle_mobile{
+    display: none; 
+    width: 223px;
+    height: 33px;
+    background-image: url(../content/title.png);
+    background-size: contain;
+}
+
+.plank_mobile{
+    max-width: 1768px;
+    width: 93%;
+    height: 6px;
+    background-color: white;
+    margin: 0px auto;
+}
+
+.grass_mobile { 
+    display: none; 
+    width: 50px;
+    height: 50px;
+    background-image: url(../content/grass.png);
+    background-size: contain;
+}
+
 .header-top-mobile {
     text-align: center;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 67.5px;
 }
 
 .main_menu {
