@@ -1,8 +1,8 @@
 $(document).ready(function() {
-	$flag = true;
+	$flag_2 = true;
 
 	$('.main_slider_button').click(function() {
-		if ($flag) {
+		if ($flag_2) {
 			$('.main_slider_click').slideDown();
 			$('.main_slider_click').css({
 				'background-color': 'rgba(255,255,255,1.00)',
@@ -14,7 +14,7 @@ $(document).ready(function() {
 				'border-bottom-right-radius': '0px',
 				'transition': 'background-color 1s'
 			});
-			$flag = false;
+			$flag_2 = false;
 		} else {
 			$('.main_slider_click').slideUp(function() {
 				$('.main_slider').css({
@@ -28,7 +28,7 @@ $(document).ready(function() {
 			$('.main_slider').css({
 				'background-color': 'rgba(255,255,255,0.70)'
 			});
-			$flag = true;
+			$flag_2 = true;
 		}
 	});
 
@@ -40,7 +40,7 @@ $(document).ready(function() {
 					'border-bottom-left-radius': '27px',
 					'border-bottom-right-radius': '27px',
 					'background-color': 'rgba(0,0,0,0.50)',
-					'transition': 'background-color 0.400s'
+					'transition': 'background-color 0.050s'
 				});
 			}, 1);
 			setTimeout(function() {
@@ -48,22 +48,22 @@ $(document).ready(function() {
 					'border-bottom-left-radius': '27px',
 					'border-bottom-right-radius': '27px',
 					'background-color': 'rgba(255,255,255,1.00)',
-					'transition': 'background-color 0.400s'
+					'transition': 'background-color 0.050s'
 				});
-			}, 200);
+			}, 100);
 		} else {
 			setTimeout(function() {
 				$this.parent().css({
 					'background-color': 'rgba(0,0,0,0.50)',
-					'transition': 'background-color 0.400s'
+					'transition': 'background-color 0.050s'
 				});
 			}, 1);
 			setTimeout(function() {
 				$this.parent().css({
 					'background-color': 'rgba(255,255,255,1.00)',
-					'transition': 'background-color 0.400s'
+					'transition': 'background-color 0.050s'
 				});
-			}, 200);
+			}, 100);
 		}
 
 

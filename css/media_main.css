@@ -1,0 +1,159 @@
+/* main-mobile */
+
+@media only screen and (max-width: 1750px) {
+    .container { font-size: 30px; }
+    .menu { font-size: 31px; }
+    .grass { 
+        width: 65px;
+        margin-left: -23px;
+    }
+}
+
+
+@media only screen and (max-width: 1550px) {
+    .slogan { padding: 0 30px; }
+    .slogan_title { font-size: 50px; }
+    .container { font-size: 27px; }
+    .slogan_best { font-size: 39px; }
+    .slogan_img { width: 19px; }
+    .menu { font-size: 28px; }
+    .grass { width: 60px; }
+ 
+}
+
+@media only screen and (max-width: 1381px) {
+    .menu { font-size: 27px; }
+    .container { font-size: 26px; }
+    .grass { width: 59px; }
+}
+
+
+@media only screen and (max-width: 1331px) {
+    .menu { font-size: 26px; }
+    .container { font-size: 25px; }
+}
+
+@media only screen and (max-width: 1279px) {
+    .menu { font-size: 25px; }
+    .container { font-size: 24px; }
+    .grass { width: 58px; }
+}
+
+@media only screen and (max-width: 1235px) {
+    .menu { font-size: 24px; }
+    .container { font-size: 23px; }
+}
+
+@media only screen and (max-width: 1210px) {
+    .menu { font-size: 23px; }
+    .container { font-size: 22px; }
+    .slogan_title { font-size: 43px; }
+    .slogan_best { font-size: 33px; }
+    .slogan_img { width: 16px; }
+}
+
+
+
+@media only screen and (max-width: 1126px) {
+    .menu { font-size: 22px; }
+    .container { font-size: 21px; }
+    .slogan_title { font-size: 41px; }
+    .slogan_best { font-size: 31px; }
+    .slogan_img { width: 14px; }
+    .grass { width: 56px; }
+}
+
+@media only screen and (max-width: 1074px) {
+    .menu { font-size: 21px; }
+    .container { font-size: 20px; }
+    .grass {
+        width: 55px; 
+    
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-top { display: none; }
+    .header-top-mobile { display: block; padding: 0 0 0px 0;}
+    .grass { display: none; }
+    .grass_mobile { display: inline-block; margin-top: -10px;}
+    .imgTitle{ display: none; }
+    .imgTitle_mobile{ display: inline-block; margin-top: 14px; }
+    .plank{ width: 89.941%; height: 10px; }
+    .lamp.left{ left: 4.688%; }
+    .lamp.right{ right: 4.688%; }
+    .lamp{ bottom: 14px; }
+    .main_menu{ margin-bottom: 14px; }
+    .slogan { margin-top: 50px; padding: 0 26px;}
+    .slogan_line { height: 5px; }
+    .slogan_title { font-size: 44px; margin-top: 1px; }
+    .slogan_best { font-size: 37px; }
+    .container { margin-top: 87px; font-size: 18px; padding: 0px 1.856%;}
+    .blocks { padding: 14px; margin-top: 45px;}
+    .imgorganic{ width: 24.007%; }
+    .icons3{ margin-top: 100px; }
+}
+
+@media only screen and (max-width: 787px) {
+    .ul_main_slider{ font-size: 22px; }
+    .container{ font-size: 17px; }
+    .slogan_title{ font-size:43px; }
+    .slogan_best{ font-size:36px; }
+    .slogan_img{ width: 13px; }
+    .main_slider_click{
+        
+    }
+}
+
+@media only screen and (max-width: 743px) {
+    .ul_main_slider{ font-size: 21px; }
+    .container{ font-size: 16px; }
+    .slogan_title{ font-size:42px; }
+    .slogan_best{ font-size:35px; }
+    .main_slider_click{
+        
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .ul_main_slider{ font-size: 20px; }
+    .container{ font-size: 15px; }
+    .slogan_title{ font-size:41px; }
+    .slogan_best{ font-size:34px; }
+
+    .main_slider_click{
+        
+    }
+}
+
+@media only screen and (max-width: 656px) {
+    .ul_main_slider{ font-size: 19px; }
+    .container{ font-size: 14px; }
+    .slogan_title{ font-size:40px; }
+    .slogan_best{ font-size:33px; }
+    .main_slider_click{
+        
+    }
+}
+
+@media only screen and (max-width: 612px) {
+    .ul_main_slider{ font-size: 18px; }
+    .container{ font-size: 13px; }
+    .slogan_title{ font-size:39px; }
+    .slogan_best{ font-size:32px; }
+    .main_slider_click{
+        
+    }
+}
+
+/* catalog-mobile */
+
+@media only screen and (max-width: 612px) {
+    .ul_main_slider{ font-size: 18px; }
+    .container{ font-size: 13px; }
+    .slogan_title{ font-size:39px; }
+    .slogan_best{ font-size:32px; }
+    .main_slider_click{
+        
+    }
+}

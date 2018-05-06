@@ -5,8 +5,8 @@
 /* Content */
 
 .catalog-page {
-    padding: 27px 0;
-    width: 1769px;
+    padding: 27px 25px;
+    width: 1719px;
     background-color: rgba(255,255,255,0.15);
     border-radius: 9px;
     color: black;
@@ -14,8 +14,8 @@
     font: 36px 'Century';
 }
 
-.container{
-    margin: 0px 25px 0 25px;
+.catalog-container{
+    
 }
 
 .blockTop{
@@ -27,7 +27,7 @@
 
 .blocksBottom{
     background-color: rgba(255,255,255,0.50);
-    width: 863px;
+    width: 847px;
     border-radius: 9px;
 }
 
@@ -36,13 +36,11 @@
     border-radius: 9px;
     
     display: flex;
-    justify-content: space-around;
-
-
+    justify-content: space-between;
 }
 
 .blockRight{
-    margin-left: 25px;
+
 }
 
 .headerText{
@@ -54,7 +52,7 @@
 }
 
 .planks{
-    width: 797px;
+    width: 94.097%;
     height: 10px;
     margin: 0px auto;
     background-image: url(../content/blackPlank.png);
@@ -118,7 +116,6 @@ form{
 }
 
 .afterSendButton{
-    width: 781px;
     text-align: center;
     margin: 0px auto;
 }
@@ -133,7 +130,7 @@ form{
 
 .sendButton{
     margin: 20px auto;
-    width: 323px;
+    width: 42.894%;
     height: 62px;
     background-image: url(../content/orderButton.png);
     background-size: cover;

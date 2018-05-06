@@ -1,0 +1,13 @@
+/* main-mobile */
+
+@media only screen and (max-width: 1768px) {
+    .catalog-page {
+        box-sizing: border-box;
+        width: 100%;
+        padding-left: 1.4%;
+        padding-right: 1.4%;
+    }
+    .catalog-container { font-size: 30px; }
+    .blocksBottom { width: 50%; }
+    .blockLeft { margin-right: 1.44%; }
+}

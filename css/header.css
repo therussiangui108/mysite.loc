@@ -95,11 +95,11 @@ body{
     display: none; 
     width: 223px;
     height: 33px;
-    background-image: url(../content/title.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.plank_mobile{
+.plank{
     max-width: 1768px;
     width: 93%;
     height: 6px;
@@ -109,8 +109,8 @@ body{
 
 .grass_mobile { 
     display: none; 
-    width: 50px;
-    height: 50px;
+    width: 28px;
+    height: 28px;
     background-image: url(../content/grass.png);
     background-size: contain;
 }
@@ -149,7 +149,6 @@ body{
 .main_slider_button{
     position: relative;
     width: 56px;
-    height: 32px;
     cursor: pointer;
 }
 
@@ -177,4 +176,21 @@ body{
     color: black;
     position: relative;
     bottom: 1px;
+}
+
+.fixHeight{
+    display: inline-block;
+}
+
+.logo_mobile{
+    margin-top: 14px;
+}
+
+.active_mobile{
+    background-color: rgba(0,0,0,0.50);
+}
+
+.active_mobile:last-child{
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
 }
