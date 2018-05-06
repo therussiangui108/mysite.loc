@@ -7,7 +7,137 @@
         padding-left: 1.4%;
         padding-right: 1.4%;
     }
-    .catalog-container { font-size: 30px; }
+    
     .blocksBottom { width: 50%; }
     .blockLeft { margin-right: 1.44%; }
+
+}
+
+@media only screen and (max-width: 1550px) {
+    .catalog-page{
+        font: 31px 'Century';
+    }
+    .headerText{
+        font: normal 31px 'Century';
+        line-height: 52px;
+    }
+    .button{
+        font: 31px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 61px 0;
+    }
+}
+
+@media only screen and (max-width: 1381px) {
+    .catalog-page{
+        font: 30px 'Century';
+    }
+    .headerText{
+        font: normal 30px 'Century';
+        line-height: 51px;
+    }
+    .button{
+        font: 30px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 65px 0;
+    }
+}
+
+@media only screen and (max-width: 1331px) {
+    .catalog-page{
+        font: 29px 'Century';
+    }
+    .headerText{
+        font: normal 29px 'Century';
+        line-height: 50px;
+    }
+    .button{
+        font: 29px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 67px 0;
+    }
+}
+
+
+@media only screen and (max-width: 1279px) {
+    .catalog-page{
+        font: 28px 'Century';
+    }
+    .headerText{
+        font: normal 28px 'Century';
+        line-height: 49px;
+    }
+    .button{
+        font: 28px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 69px 0;
+    }
+}
+
+@media only screen and (max-width: 1235px) {
+    .catalog-page{
+        font: 27px 'Century';
+    }
+    .headerText{
+        font: normal 27px 'Century';
+        line-height: 48px;
+    }
+    .button{
+        font: 27px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 71px 0;
+    }
+}
+
+@media only screen and (max-width: 1210px) {
+    .catalog-page{
+        font: 26px 'Century';
+    }
+    .headerText{
+        font: normal 26px 'Century';
+        line-height: 47px;
+    }
+    .button{
+        font: 26px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 73px 0;
+    }
+}
+
+@media only screen and (max-width: 1126px) {
+    .catalog-page{
+        font: 25px 'Century';
+    }
+    .headerText{
+        font: normal 25px 'Century';
+        line-height: 46px;
+    }
+    .button{
+        font: 25px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 77px 0;
+    }
+}
+
+@media only screen and (max-width: 1074px) {
+    .catalog-page{
+        font: 24px 'Century';
+    }
+    .headerText{
+        font: normal 24px 'Century';
+        line-height: 45px;
+    }
+    .button{
+        font: 24px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 79px 0;
+    }
 }
