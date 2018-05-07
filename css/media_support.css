@@ -27,6 +27,9 @@
     .paragraphBottom{
         margin: 0 0 61px 0;
     }
+    .txt{
+        font: 31px "Courier New";
+    }
 }
 
 @media only screen and (max-width: 1381px) {
@@ -43,6 +46,9 @@
     .paragraphBottom{
         margin: 0 0 65px 0;
     }
+    .txt{
+        font: 30px "Courier New";
+    }
 }
 
 @media only screen and (max-width: 1331px) {
@@ -58,6 +64,9 @@
     }
     .paragraphBottom{
         margin: 0 0 67px 0;
+    }
+    .txt{
+        font: 29px "Courier New";
     }
 }
 
@@ -76,6 +85,9 @@
     .paragraphBottom{
         margin: 0 0 69px 0;
     }
+    .txt{
+        font: 28px "Courier New";
+    }
 }
 
 @media only screen and (max-width: 1235px) {
@@ -91,6 +103,9 @@
     }
     .paragraphBottom{
         margin: 0 0 71px 0;
+    }
+    .txt{
+        font: 27px "Courier New";
     }
 }
 
@@ -108,6 +123,9 @@
     .paragraphBottom{
         margin: 0 0 73px 0;
     }
+    .txt{
+        font: 26px "Courier New";
+    }
 }
 
 @media only screen and (max-width: 1126px) {
@@ -124,6 +142,9 @@
     .paragraphBottom{
         margin: 0 0 77px 0;
     }
+    .txt{
+        font: 25px "Courier New";
+    }
 }
 
 @media only screen and (max-width: 1074px) {
@@ -139,5 +160,61 @@
     }
     .paragraphBottom{
         margin: 0 0 79px 0;
+    }
+    .txt{
+        font: 24px "Courier New";
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .catalog-page{
+        box-sizing: content-box;
+        width: 670px;
+        padding-left: 4.966%;
+        padding-right: 4.966%;
+        font: 25px 'Century';
+        padding: 18px 0px;
+    } 
+    .blocksBottomContainer{
+        
+        display: block;
+    }
+    .blocksBottom, .blockTop{
+        margin:  0px auto 13px;
+        width: 608px;
+    }
+    .blockTop{
+        box-sizing: border-box;
+        margin:  0px auto 13px;
+        width: 608px;
+    }
+    .blocksBottom:last-child{
+        margin:  0px auto;
+        width: 608px;
+    }
+    .paragraphBottom{
+        margin: 0 0 40px 0;
+    }
+    .planks{
+        width: 94.41%;
+        height: 8px;
+        margin: 0px auto;
+        background-image: url(../content/blackPlank.png);
+        background-size: cover;
+    }
+    .bottomText{
+        padding: 14px 17px;
+    }
+    .button{
+        font-size: 25px;
+    }
+    .bottomText2 {
+        padding: 17px 17px 0px 17px;
+    }
+    .paragraphBottomRight {
+        margin: 0 0 8px 0;
+    }
+    .txt{
+        height: 41px;
     }
 }

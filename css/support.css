@@ -7,7 +7,7 @@
 .catalog-page {
     padding: 27px 25px;
     width: 1719px;
-    background-color: rgba(255,255,255,0.15);
+    background-color: rgba(255,255,255,0.30);
     border-radius: 9px;
     color: black;
     margin:  61px auto;
@@ -133,7 +133,8 @@ form{
     width: 42.894%;
     height: 62px;
     background-image: url(../content/orderButton.png);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .sendButton:active{
