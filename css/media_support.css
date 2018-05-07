@@ -169,7 +169,8 @@
 @media only screen and (max-width: 1024px) {
     .catalog-page{
         box-sizing: content-box;
-        width: 670px;
+/*        width: 670px;*/
+        width: 89.941%;
         padding-left: 4.966%;
         padding-right: 4.966%;
         font: 25px 'Century';
@@ -181,16 +182,19 @@
     }
     .blocksBottom, .blockTop{
         margin:  0px auto 13px;
-        width: 608px;
+/*        width: 608px;*/
+        width: 93.298%;
     }
     .blockTop{
         box-sizing: border-box;
         margin:  0px auto 13px;
-        width: 608px;
+
+
     }
     .blocksBottom:last-child{
         margin:  0px auto;
-        width: 608px;
+
+        
     }
     .paragraphBottom{
         margin: 0 0 40px 0;
