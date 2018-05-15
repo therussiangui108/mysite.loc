@@ -72,7 +72,7 @@
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
     .header-top { display: none; }
     .header-top-mobile { display: block; padding: 0 0 0px 0;}
     .grass { display: none; }
@@ -94,6 +94,7 @@
     .icons3{ margin-top: 100px; }
 }
 
+/*
 @media only screen and (max-width: 882px) {
     .container{ font-size: 17px; }
     .slogan_line { height: 5px; }
@@ -117,6 +118,7 @@
     .slogan_best { font-size: 34px; }
     .slogan_img { width: 12px; } 
 }
+*/
 
 /*
 @media only screen and (max-width: 787px) {
@@ -131,7 +133,7 @@
 }
 */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 482px) {
 /*
     .grass { display: none; }
     .grass_mobile { display: inline-block; margin-top: -10px;}
