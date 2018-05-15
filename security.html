@@ -2,11 +2,13 @@
     <head>
         <meta charset='utf-8'>
         <title>Premium Food</title>
-        <link rel='stylesheet' type='text/css' href='css/header.css'>
+        <link rel="stylesheet" type="text/css" href="css/header.css">
         <link rel='stylesheet' type='text/css' href='css/security.css'>
+        <link rel='stylesheet' type='text/css' href='css/media_header.css'>
+     
+        <link rel='stylesheet' type='text/css' href='css/media_security.css'>
         <script src="js/jquery.min.js"></script>
-        <style>
-        </style>
+        <script src="js/menu_mobile.js"></script>
     </head>
     <body>
         <div class = 'main'>
@@ -16,18 +18,41 @@
                         <li><a href="main.html">Главная</a></li>
                         <li><a href="catalog.html">Каталог</a></li>
                     </ul>
-                    <a class="logo" href="main.html"><img src="content/title.png" alt=""></a>
+                    <a class="logo" href=""><img src="content/title.png" alt="" class = 'imgTitle'></a>
                     <ul class = 'menu right'>
                         <li class='active'><a href="#">Личный кабинет</a></li>
                         <li><a href="support.html">Помощь</a></li>
                     </ul>
+                    <img class="lamp left" src="content/lamp.png" alt="">
+                    <img class="lamp right" src="content/lamp.png" alt="">
+                    <img class="grass" src="content/grass.png" alt="">
+
+                </div>
+                <div class="header-top-mobile">
+                    <div class = 'fixHeight'>
+                        <a href = '#'><img src = 'content/title.png' class = 'imgTitle_mobile'></a><br>
+                        <div class="grass_mobile"></div><br>
+                        <div class="main_menu">
+                            <div class = 'div_main_slider main_slider'>
+                                <img src = 'content/main_slider_button.png' class = 'main_slider_button'>
+                            </div>
+                            <div class = 'div_main_slider main_slider_click'>
+                                <ul class = 'ul_main_slider'>
+                                    <li><a href = 'main.html'>Главная</a></li>
+                                    <li><a href = 'catalog.html'>Каталог</a></li>
+                                    <li class = 'active_mobile'><a href = '#'>Личный кабинет</a></li>
+                                    <li><a href = 'support.html'>Помощь</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class = 'main plank'></div>
                 <img class="lamp left" src="content/lamp.png" alt="">
                 <img class="lamp right" src="content/lamp.png" alt="">
                 <img class="grass" src="content/grass.png" alt="">
-
             </div>
+
 
             <div class='catalog-page'>
 
@@ -100,10 +125,8 @@
 
                 <div class = 'blocksRight'>
                     <div class = 'blocksAll block2'>
-
-                        <p class = 'headerText'>Личные данные</p>
-                        <button class = 'buttons exitButton'><div class = 'exitButtonText'>Выйти</div></button>
-
+                            <p class = 'headerText'>Личные данные</p>
+                            <button class = 'buttons exitButton'><div class = 'exitButtonText'>Выйти</div></button>
                         <div class = 'planksRight'></div>
                         <div class = 'mainText'>
                             <p><span>Ваше имя:</span> Иван</p>
@@ -167,6 +190,7 @@
                 <div class = 'clearfix'></div>
             </div>
             </div>
+
         </div>
         <script src = 'js/range.js'>
         </script>

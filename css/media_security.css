@@ -4,15 +4,147 @@
     .catalog-page {
         box-sizing: border-box;
         width: 100%;
+    }
+/*
         padding-left: 1.4%;
         padding-right: 1.4%;
+*/
+}
+   
+@media only screen and (max-width: 1750px) {
+    .headerText{
+        font: normal 35px "Century";
+        line-height: 56px;
+    } 
+    .basketHeader {
+        font: 35px "Century";
+        line-height: 49px;
     }
-    
-    .blocksBottom { width: 50%; }
-    .blockLeft { margin-right: 1.44%; }
-
+    .basketMainTextBlock {
+        font: 24px "Courier New";
+    }
+    .beforeOrderButton {
+        font: 29px "Courier New";
+        line-height: 49px;
+    }
+    .buttons {
+        font: 35px "Courier New";
+    }
+    .mainText {
+        font: normal 35px "Courier New";
+        line-height: 53px;
+    }
+    .historyHeader {
+        font: 35px "Century";
+        line-height: 49px;
+    }
+    .historyMainTextBlock {
+        font: 24px "Courier New";
+    }
 }
 
+@media only screen and (max-width: 1730px) {
+    .headerText{
+        font: normal 34px "Century";
+        line-height: 55px;
+    } 
+    .basketHeader {
+        font: 34px "Century";
+        line-height: 48px;
+    }
+    .basketMainTextBlock {
+        font: 23px "Courier New";
+    }
+    .beforeOrderButton {
+        font: 28px "Courier New";
+        line-height: 48px;
+    }
+    .buttons {
+        font: 34px "Courier New";
+    }
+    .mainText {
+        font: normal 34px "Courier New";
+        line-height: 52px;
+    }
+    .historyHeader {
+        font: 35px "Century";
+        line-height: 49px;
+    }
+    .historyMainTextBlock {
+        font: 23px "Courier New";
+    }
+}
+
+@media only screen and (max-width: 1708px) {
+    .headerText{
+        font: normal 33px "Century";
+        line-height: 54px;
+    } 
+    .basketHeader {
+        font: 33px "Century";
+        line-height: 47px;
+    }
+    .basketMainTextBlock {
+        font: 22px "Courier New";
+    }
+    .beforeOrderButton {
+        font: 27px "Courier New";
+        line-height: 47px;
+    }
+    .buttons {
+        font: 33px "Courier New";
+    }
+    .mainText {
+        font: normal 33px "Courier New";
+        line-height: 51px;
+    }
+    .historyHeader {
+        font: 34px "Century";
+        line-height: 48px;
+    }
+    .historyMainTextBlock {
+        font: 22px "Courier New";
+    }
+}
+  
+@media only screen and (max-width: 1686px) {
+    .headerText{
+        font: normal 32px "Century";
+        line-height: 53px;
+    } 
+    .basketHeader {
+        font: 32px "Century";
+        line-height: 46px;
+    }
+    .basketMainTextBlock {
+        font: 21px "Courier New";
+    }
+    .beforeOrderButton {
+        font: 26px "Courier New";
+        line-height: 46px;
+    }
+    .buttons {
+        font: 32px "Courier New";
+    }
+    .mainText {
+        font: normal 32px "Courier New";
+        line-height: 50px;
+    }
+    .historyHeader {
+        font: 33px "Century";
+        line-height: 47px;
+    }
+    .historyMainTextBlock {
+        font: 21px "Courier New";
+    }
+}
+
+/*    .blocksAll.block1 { width: 864px; }*/
+/*    .blockLeft { margin-right: 1.44%; }*/
+
+
+
+/*
 @media only screen and (max-width: 1550px) {
     .catalog-page{
         font: 31px 'Century';
@@ -167,8 +299,6 @@
 }
 
 @media only screen and (max-width: 1024px) {
-    .header-top { display: none; }
-    .header-top-mobile { display: block; padding: 0 0 0px 0;}
     .catalog-page{
         box-sizing: content-box;
         width: 89.941%;
@@ -183,7 +313,7 @@
     }
     .blocksBottom, .blockTop{
         margin:  0px auto 13px;
-/*        width: 608px;*/
+        width: 608px;
         width: 93.298%;
     }
     .blockTop{
@@ -214,7 +344,7 @@
         font-size: 25px;
     }
     .bottomText2 {
-        padding: 14px 17px 0px 17px;
+        padding: 17px 17px 0px 17px;
     }
     .paragraphBottomRight {
         margin: 0 0 8px 0;
@@ -222,75 +352,4 @@
     .txt{
         height: 41px;
     }
-    .sendButton{
-        margin: 20px auto;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .bottomText2{
-        display:none;
-    }
-    .bottomText2_mobile{
-        display:block;
-        padding: 9px 16px 0px 16px;
-    }
-    .SendButton{
-        margin: 7px auto;
-        height: 30px;
-    }
-    .catalog-page{
-        margin: 14px auto;
-        padding: 14px 0px;
-        width: 58.815%;
-        font: 17px 'Century';
-    }
-    .blockTop{
-        padding: 12px 12px 12px 12px;
-        margin-bottom: 1.63%;
-        width: 92.445%;
-    }
-    .blockLeft{
-        margin-bottom: 1.63%;
-        width: 92.445%;
-    }
-    .blockRight{
-        width: 92.445%;
-    }
-    .headerText {
-        font: 17px 'Century';
-        line-height: 31px;
-        margin: 0 0 2.5px 0;
-    }
-    .planks {
-        width: 92.916%;
-        height: 7px;
-        margin: 0px auto;
-        background-image: url(../content/blackPlank.png);
-        background-size: cover;
-    }
-    .bottomText {
-        padding: 9px 16px;
-    }
-    .paragraphBottom {
-        margin: 0 0 25px 0;
-    }
-    .txt{
-/*        width: 335px;*/
-        width: 100%;
-        margin: 0 0 12px 0;
-    }
-    .txt_area{
-        height: 64px;
-        margin: 0 0 0px 0;
-    }
-    .button{
-        font: 17px "Courier New";
-    }
-    .sendButton{
-        margin: 7px auto;
-        width: 42.894%;
-        background-image: url(../content/orderButton_phone.png);
-        background-repeat: contain;
-    }
-}
+}*/

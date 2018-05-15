@@ -93,7 +93,7 @@ body{
 
 .imgTitle_mobile{
     display: none; 
-    width: 223px;
+    zwidth: 223px;
     height: 33px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -122,9 +122,21 @@ body{
 }
 
 .main_menu {
+    width: 43.555%;
     position: relative;
     display: inline-block;
 }
+
+.div_main_slider.main_slider{
+    width: 100%;
+}
+
+/*
+.fixHeight{
+    width: 43.555%;
+    display: inline-block;
+}
+*/
 
 .div_main_slider {
     background-color: rgba(255,255,255,0.70);
@@ -136,6 +148,7 @@ body{
 }
 
 .main_slider_click{
+    width: 100%;
     position: absolute;
     top: 100%;
     left: 0;
@@ -176,10 +189,6 @@ body{
     color: black;
     position: relative;
     bottom: 1px;
-}
-
-.fixHeight{
-    display: inline-block;
 }
 
 .logo_mobile{

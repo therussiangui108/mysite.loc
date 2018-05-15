@@ -47,6 +47,10 @@
     padding: 0 8.85%;
 }
 
+.container_mobile{
+    display: none;
+}
+
 .blocks{
     width: 30.9192%;
     background-color: rgba(255,255,255,0.15);
@@ -61,6 +65,14 @@
 
 .blocks.right{
     float: right;
+}
+
+.blocks.left_mobile{
+
+}
+
+.blocks.right_mobile{
+
 }
 
 .imgorganic{

@@ -1,7 +1,6 @@
 .clearfix{
     clear:both;
 }
-
 /* Content */
 
 .catalog-page {
@@ -21,7 +20,7 @@
 .blockTop{
     background-color: rgba(255,255,255,0.50);
     border-radius: 9px;
-    margin-bottom: 25px;
+    margin-bottom: 1.455%;
     padding: 10px 14px 14px 14px;
 }
 
@@ -65,6 +64,10 @@
 
 .bottomText2{
     padding: 26px 26px 0 26px;
+}
+
+.bottomText2_mobile{
+    display: none;
 }
 
 form{
@@ -149,3 +152,4 @@ form{
 .sendButtonText{
     margin: 0 0 0 0;
 }
+
