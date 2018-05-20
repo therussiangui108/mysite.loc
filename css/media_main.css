@@ -72,6 +72,47 @@
     }
 }
 
+@media only screen and (max-width: 1023px) {
+    .menu { font-size: 20px; }
+    .container { font-size: 19px; }
+    .slogan_title { font-size: 40px; }
+    .slogan_best { font-size: 30px; }
+    .grass { width: 55px; }
+}
+
+@media only screen and (max-width: 972px) {
+    .menu { font-size: 19px; }
+    .container { font-size: 18px; }
+    .slogan_title { font-size: 39px; }
+    .slogan_best { font-size: 29px; }
+    .grass { width: 53px; }
+}
+
+@media only screen and (max-width: 922px) {
+    .menu { font-size: 18px; }
+    .container { font-size: 17px; }
+    .slogan_title { font-size: 38px; }
+    .slogan_best { font-size: 28px; }
+    .grass { width: 51px; }
+}
+
+@media only screen and (max-width: 870px) {
+    .menu { font-size: 17px; }
+    .container { font-size: 16px; }
+    .slogan_title { font-size: 37px; }
+    .slogan_best { font-size: 27px; }
+    .grass { width: 49px; }
+}
+
+@media only screen and (max-width: 818px) {
+    .menu { font-size: 16px; }
+    .container { font-size: 15px; }
+    .slogan_title { font-size: 36px; }
+    .slogan_best { font-size: 26px; }
+    .slogan_img { width: 13px; }
+    .grass { width: 47px; }
+}
+
 @media only screen and (max-width: 768px) {
     .header-top { display: none; }
     .header-top-mobile { display: block; padding: 0 0 0px 0;}
@@ -80,8 +121,15 @@
     .imgTitle{ display: none; }
     .imgTitle_mobile{ display: inline-block; margin-top: 14px; }
     .plank{ width: 89.941%; height: 10px; }
-    .lamp.left{ left: 4.688%; }
-    .lamp.right{ right: 4.688%; }
+    .lamp{
+        width: 4.395%;
+    }
+    .lamp.left{
+        left: 5.688%;
+    }
+    .lamp.right{
+        right: 5.688%;
+    }
     .lamp{ bottom: 14px; }
     .main_menu{ margin-bottom: 14px; }
     .slogan { margin-top: 50px; padding: 0 26px;}
@@ -92,6 +140,92 @@
     .blocks { padding: 14px; margin-top: 45px;}
     .imgorganic{ width: 24.007%; }
     .icons3{ margin-top: 100px; }
+    .main_slider_button {
+        width: 16.745%;
+    }
+    .div_main_slider {
+        font: 3vw 'Century';
+    }
+    .ul_main_slider li {
+        line-height: 13.1vw;
+    }
+}
+
+@media only screen and (max-width: 740px) {
+    .container { font-size: 17px; }
+    .slogan_title { font-size: 44px; }
+    .slogan_best { font-size: 37px; }
+    .slogan_img { width: 13px; }
+}
+
+@media only screen and (max-width: 698px) {
+    .container { font-size: 16px; }
+    .slogan_title { font-size: 43px; }
+    .slogan_best { font-size: 36px; }
+}
+
+@media only screen and (max-width: 658px) {
+    .container { font-size: 15px; }
+    .slogan_title { font-size: 42px; }
+    .slogan_best { font-size: 35px; }
+}
+
+@media only screen and (max-width: 653px) {
+    .lamp.left{
+        left: 6.688%;
+    }
+    .lamp.right{
+        right: 6.688%;
+    } 
+}
+
+@media only screen and (max-width: 618px) {
+    .container { font-size: 14px; }
+    .slogan_title { font-size: 41px; }
+    .slogan_best { font-size: 34px; }
+}
+
+@media only screen and (max-width: 612px) {
+    .container { font-size: 13px; }
+    .slogan_title { font-size: 40px; }
+    .slogan_best { font-size: 33px; }
+    .slogan_img { width: 12px; }
+}
+
+@media only screen and (max-width: 595px) {
+    .lamp.left{
+        left: 7.688%;
+    }
+    .lamp.right{
+        right: 7.688%;
+    } 
+}
+
+@media only screen and (max-width: 568px) {
+    .container { font-size: 12px; }
+    .slogan_title { font-size: 39px; }
+    .slogan_best { font-size: 32px; }
+}
+
+@media only screen and (max-width: 524px) {
+    .container { font-size: 11px; }
+    .slogan_title { font-size: 38px; }
+    .slogan_best { font-size: 31px; }
+}
+
+@media only screen and (max-width: 505px) {
+    .lamp.left{
+        left: 8.688%;
+    }
+    .lamp.right{
+        right: 8.688%;
+    } 
+}
+
+@media only screen and (max-width: 485px) {
+    .container { font-size: 10px; }
+    .slogan_title { font-size: 37px; }
+    .slogan_best { font-size: 30px; }
 }
 
 /*
@@ -157,21 +291,21 @@
         width: 51.824%; margin-top: 16px;
     }
     .imgorganic{ width: 18.23%;  margin-top: 9px; }
+    .slogan{ margin-top: 18px; padding: 0 5.187%; width: 78.07%; }
     .slogan_img{
-        height: 31px;
         width: 12px;
     }
     .slogan_best { font-size: 30px; margin: 7px 0 0;}
-    .slogan { margin-top: 18px; padding: 0 25px;}
     .slogan_title { font-size: 33px; font-family: 'Courier New'; margin-top: 2.5px; }
     .slogan_line { height: 4px; }
     .container{
         display: none;
     }
     .container_mobile{
-        max-width: 1643px;
+        max-width: 482px;
         display: block;
         font: 16px 'Arno Pro';
+        padding: 0 3.945%;0
     }
     .blocks.left{
         display: none;
@@ -182,7 +316,8 @@
     
     .blocks{
         width: 90.627%;
-        padding: 13px 17px 12px 17px
+        padding: 13px 17px 12px 17px;
+        box-sizing: border-box;
     }
     
     .blocks.left_mobile{
@@ -200,8 +335,209 @@
     }
 }
 
+@media only screen and (max-width: 481px) {
+    .container_mobile { font: 15px 'Arno Pro'; }
+    .slogan_title { font-size: 32px; }
+    .slogan_best { font-size: 29px; }
+}
 
 
+
+@media only screen and (max-width: 467px) {
+    .container_mobile { font: 14px 'Arno Pro'; }
+    .slogan_title { font-size: 31px; }
+    .slogan_best { font-size: 28px; }
+
+}
+
+@media only screen and (max-width: 452px) {
+    .slogan_title { font-size: 30px; }
+    .slogan_best { font-size: 27px; }
+    .slogan_img { width: 11px; }
+}
+
+@media only screen and (max-width: 450px) {
+    .lamp.left{
+        left: 9.688%;
+    }
+    .lamp.right{
+        right: 9.688%;
+    } 
+}
+
+@media only screen and (max-width: 438px) {
+    .slogan_title { font-size: 29px; }
+    .slogan_best { font-size: 26px; }
+}
+
+@media only screen and (max-width: 423px) {
+    .slogan_title { font-size: 28px; }
+    .slogan_best { font-size: 25px; }
+    .slogan_img { width: 10px; }
+}
+
+@media only screen and (max-width: 419px) {
+    .container_mobile { font: 13px 'Arno Pro'; }
+}
+
+@media only screen and (max-width: 408px) {
+    .slogan_title { font-size: 27px; }
+    .slogan_best { font-size: 24px; }
+}
+
+@media only screen and (max-width: 394px) {
+    .slogan_title { font-size: 26px; }
+    .slogan_best { font-size: 23px; }
+}
+
+@media only screen and (max-width: 390px) {
+    .lamp.left{
+        left: 10.688%;
+    }
+    .lamp.right{
+        right: 10.688%;
+    } 
+}
+
+@media only screen and (max-width: 379px) {
+    .slogan_title { font-size: 25px; }
+    .slogan_best { font-size: 22px; }
+}
+
+@media only screen and (max-width: 365px) {
+    .slogan_title { font-size: 24px; }
+    .slogan_best { font-size: 21px; }
+}
+
+@media only screen and (max-width: 350px) {
+    .slogan_title { font-size: 23px; }
+    .slogan_best { font-size: 20px; }
+    .container_mobile { font: 12px 'Arno Pro'; }
+}
+
+@media only screen and (max-width: 335px) {
+    .slogan_title { font-size: 22px; }
+    .slogan_best { font-size: 19px; }
+    .slogan_img { width: 9px; }
+}
+
+@media only screen and (max-width: 333px) {
+    .lamp.left{
+        left: 11.688%;
+    }
+    .lamp.right{
+        right: 11.688%;
+    } 
+}
+
+@media only screen and (max-width: 321px) {
+    .slogan_title { font-size: 21px; }
+    .slogan_best { font-size: 18px; }
+}
+
+@media only screen and (max-width: 306px) {
+    .slogan_title { font-size: 20px; }
+    .slogan_best { font-size: 17px; }
+}
+
+@media only screen and (max-width: 303px) {
+    .lamp.left{
+        left: 12.688%;
+    }
+    .lamp.right{
+        right: 12.688%;
+    } 
+}
+
+@media only screen and (max-width: 292px) {
+    .slogan_title { font-size: 19px; }
+    .slogan_best { font-size: 16px; }
+    .slogan_img { width: 8px; }
+    .container_mobile { font: 11px 'Arno Pro'; }
+}
+
+@media only screen and (max-width: 280px) {
+    .lamp.left{
+        left: 13.688%;
+    }
+    .lamp.right{
+        right: 13.688%;
+    } 
+}
+
+@media only screen and (max-width: 277px) {
+    .slogan_title { font-size: 18px; }
+    .slogan_best { font-size: 15px; }
+    
+}
+
+@media only screen and (max-width: 263px) {
+    .slogan_title { font-size: 17px; }
+    .slogan_best { font-size: 14px; }
+    .container_mobile { font: 10px 'Arno Pro'; }
+}
+
+@media only screen and (max-width: 257px) {
+    .lamp.left{
+        left: 14.688%;
+    }
+    .lamp.right{
+        right: 14.688%;
+    } 
+}
+
+@media only screen and (max-width: 248px) {
+    .slogan_title { font-size: 16px; }
+    .slogan_best { font-size: 13px; }
+}
+
+
+
+@media only screen and (max-width: 233px) {
+    .slogan_title { font-size: 15px; }
+    .slogan_best { font-size: 12px; }
+    .container_mobile { font: 9px 'Arno Pro'; }
+    .slogan_img { width: 7px; }
+}
+
+@media only screen and (max-width: 227px) {
+    .lamp.left{
+        left: 40px;
+    }
+    .lamp.right{
+        right: 40px;
+    } 
+}
+
+@media only screen and (max-width: 220px) {
+    .slogan_title { font-size: 14px; }
+    .slogan_best { font-size: 11px; }
+    
+}
+
+@media only screen and (max-width: 205px) {
+    .slogan_title { font-size: 13px; }
+    .slogan_best { font-size: 10px; }
+    
+}
+
+@media only screen and (max-width: 189px) {
+    .slogan_title { font-size: 12px; }
+    .slogan_best { font-size: 9px; }
+    
+}
+
+@media only screen and (max-width: 175px) {
+    .slogan_title { font-size: 11px; }
+    .slogan_best { font-size: 8px; }
+    .container_mobile { font: 8px 'Arno Pro'; }
+    .slogan_img { width: 5px; }
+}
+
+@media only screen and (max-width: 160px) {
+    .slogan_title { font-size: 10px; }
+    .slogan_best { font-size: 7px; }
+}
 /*
 @media only screen and (max-width: 743px) {
     .ul_main_slider{ font-size: 21px; }

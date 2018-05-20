@@ -166,7 +166,124 @@
     }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 975px) {
+    .catalog-page{
+        font: 23px 'Century';
+    }
+    .headerText{
+        font: normal 23px 'Century';
+        line-height: 44px;
+    }
+    .button{
+        font: 23px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 81px 0;
+    }
+    .txt{
+        font: 23px "Courier New";
+    }
+}
+
+@media only screen and (max-width: 940px) {
+    .catalog-page{
+        font: 22px 'Century';
+    }
+    .headerText{
+        font: normal 22px 'Century';
+        line-height: 43px;
+    }
+    .button{
+        font: 22px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 83px 0;
+    }
+    .txt{
+        font: 22px "Courier New";
+    }
+}
+
+@media only screen and (max-width: 904px) {
+    .catalog-page{
+        font: 21px 'Century';
+    }
+    .headerText{
+        font: normal 21px 'Century';
+        line-height: 42px;
+    }
+    .button{
+        font: 21px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 85px 0;
+    }
+    .txt{
+        font: 21px "Courier New";
+    }
+}
+
+@media only screen and (max-width: 883px) {
+    .catalog-page{
+        font: 20px 'Century';
+    }
+    .headerText{
+        font: normal 20px 'Century';
+        line-height: 41px;
+    }
+    .button{
+        font: 20px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 89px 0;
+    }
+    .txt{
+        font: 20px "Courier New";
+    }
+}
+
+@media only screen and (max-width: 816px) {
+    .catalog-page{
+        font: 19px 'Century';
+    }
+    .headerText{
+        font: normal 19px 'Century';
+        line-height: 40px;
+    }
+    .button{
+        font: 19px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 91px 0;
+    }
+    .txt{
+        font: 19px "Courier New";
+    }
+    .planks{
+        height: 9px;
+    }
+}
+
+@media only screen and (max-width: 782px) {
+    .catalog-page{
+        font: 18px 'Century';
+    }
+    .headerText{
+        font: normal 18px 'Century';
+        line-height: 39px;
+    }
+    .button{
+        font: 18px "Courier New";
+    }
+    .paragraphBottom{
+        margin: 0 0 93px 0;
+    }
+    .txt{
+        font: 18px "Courier New";
+    }
+}
+
+@media only screen and (max-width: 768px) {
     .header-top { display: none; }
     .header-top-mobile { display: block; padding: 0 0 0px 0;}
     .catalog-page{
@@ -176,7 +293,12 @@
         padding-right: 4.966%;
         font: 25px 'Century';
         padding: 18px 0px;
+        margin: 33px auto;
     } 
+    .headerText{
+        font: 25px 'Century';
+        line-height: 39px;
+    }
     .blocksBottomContainer{
         
         display: block;
@@ -192,11 +314,11 @@
 
 
     }
+    
     .blocksBottom:last-child{
         margin:  0px auto;
-
-        
     }
+    
     .paragraphBottom{
         margin: 0 0 40px 0;
     }
@@ -211,7 +333,8 @@
         padding: 14px 17px;
     }
     .button{
-        font-size: 25px;
+/*        font-size: 25px;*/
+        font-size: 3.25vw;
     }
     .bottomText2 {
         padding: 14px 17px 0px 17px;
@@ -225,9 +348,16 @@
     .sendButton{
         margin: 20px auto;
     }
+    
+    
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 482px) {
+    .catalog-container{
+        
+/*        max-width: 397px;*/
+        display: block;
+    }
     .bottomText2{
         display:none;
     }
@@ -240,11 +370,13 @@
         height: 30px;
     }
     .catalog-page{
+        width: 89.815%;
         margin: 14px auto;
         padding: 14px 0px;
-        width: 58.815%;
+        
         font: 17px 'Century';
     }
+    
     .blockTop{
         padding: 12px 12px 12px 12px;
         margin-bottom: 1.63%;
@@ -279,18 +411,118 @@
 /*        width: 335px;*/
         width: 100%;
         margin: 0 0 12px 0;
+        font: 17px 'Century';
     }
     .txt_area{
         height: 64px;
         margin: 0 0 0px 0;
     }
     .button{
-        font: 17px "Courier New";
+        font: 3.53vw "Courier New";
     }
     .sendButton{
         margin: 7px auto;
         width: 42.894%;
         background-image: url(../content/orderButton_phone.png);
-        background-repeat: contain;
+        
+    }
+}
+
+
+
+
+@media only screen and (max-width: 260px) {
+    .catalog-page, .headerText, .txt{
+        font: 16px 'Century';
+    }
+    .headerText {
+        line-height: 31px;
+        margin: 0 0 2.5px 0;
+    }
+}
+
+@media only screen and (max-width: 248px) {
+    .catalog-page, .headerText, .txt{
+        font: 15px 'Century';
+    }
+    .headerText {
+        line-height: 30px;
+        margin: 0 0 2.5px 0;
+    }
+}
+
+@media only screen and (max-width: 236px) {
+    .catalog-page, .headerText, .txt{
+        font: 14px 'Century';
+    }
+    .planks{
+        height: 6px;
+    }
+    .headerText {
+        line-height: 29px;
+        margin: 0 0 2.5px 0;
+    }
+}
+
+@media only screen and (max-width: 224px) {
+    .catalog-page, .headerText, .txt{
+        font: 13px 'Century';
+    }
+    .headerText {
+        line-height: 28px;
+        margin: 0 0 2.5px 0;
+    }
+}
+
+@media only screen and (max-width: 211px) {
+    .catalog-page, .headerText, .txt{
+        font: 12px 'Century';
+    }
+    .headerText {
+        line-height: 27px;
+        margin: 0 0 1.5px 0;
+    }
+}
+
+@media only screen and (max-width: 205px) {
+    .catalog-page, .headerText, .txt{
+        font: 11px 'Century';
+    }
+    .planks{
+        height: 5px;
+    }
+    .headerText {
+        line-height: 26px;
+        margin: 0 0 0.5px 0;
+    }
+}
+
+@media only screen and (max-width: 179px) {
+    .catalog-page, .headerText, .txt{
+        font: 10px 'Century';
+    }
+    .headerText {
+        line-height: 25px;
+        margin: 0 0 0px 0;
+    }
+}
+
+@media only screen and (max-width: 170px) {
+
+    .headerText {
+        margin: 0 0 0px 0;
+    }
+}
+
+@media only screen and (max-width: 158px) {
+    .catalog-page, .headerText, .txt{
+        font: 9px 'Century';
+    }
+    .planks{
+        height: 5px;
+    }
+    .headerText {
+        line-height: 24px;
+        margin: 0 0 0px 0;
     }
 }

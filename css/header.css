@@ -93,7 +93,7 @@ body{
 
 .imgTitle_mobile{
     display: none; 
-    zwidth: 223px;
+    width: 223px;
     height: 33px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -112,7 +112,7 @@ body{
     width: 28px;
     height: 28px;
     background-image: url(../content/grass.png);
-    background-size: contain;
+    background-size: cover;
 }
 
 .header-top-mobile {
